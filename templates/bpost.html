@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bpost Email Template</title>
+    <style>
+      
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+            margin-bottom: -70px;
+            margin-top: -70px;
+        }
+        .logo img {
+            max-width: 150px;
+        }
+       .content {
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            white-space: pre-line;
+            
+        }
+            
+        .content a {
+            color: #d71920;
+            text-decoration: none;
+        }
+        
+        .content a:hover {
+            text-decoration: underline;
+        }
+            
+        .footer {
+            margin-top: 20px;
+            font-size: 11px;
+            text-align: center;
+            color: #555;
+            font-family: Arial, sans-serif;
+            margin-bottom: -70px;
+            margin-top: -70px;
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.bpost.be/sites/default/files/logo/bpost-logo.jpg" alt="bpost Logo">
+            
+        </div>
+
+        <div class="content">
+            {{ full_content }}
+        </div>
+
+        <div class="footer">
+            <p>&copy; BPost, All rights reserved. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

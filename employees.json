@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Yeliz",
+        "surname": "Kaya",
+        "email": "yelizkizmazer@.com",
+        "business_unit": "Sales",
+        "team_name": "B2B Sales"
+    },
+    {
+        "name": "Anastasia",
+        "surname": "Smith",
+        "email": "nastiashosti@gmail.com",
+        "business_unit": "HR",
+        "team_name": "Talent Acquisition"
+    },
+    {
+        "name": "Petra",
+        "surname": "Landuyt",
+        "email": "petra_landuyt@hotmail.com",
+        "business_unit": "HR",
+        "team_name": "Talent Acquisition"
+    },
+    {
+        "name": "Veena",
+        "surname": "Bhawani",
+        "email": "veenabhawani98@gmail.com",
+        "business_unit": "HR",
+        "team_name": "Talent Acquisition"
+    },
+    {
+        "name": "Levin",
+        "surname": "Levin",
+        "email": "lefmannetje@gmail.com",
+        "business_unit": "HR",
+        "team_name": "Talent Acquisition"
+    },
+    {
+        "name": "Dhrisya",
+        "surname": "Kesavadas",
+        "email": "dhrisyakesavadas@gmail.com",
+        "business_unit": "HR",
+        "team_name": "Talent Acquisition"
+    }
+]

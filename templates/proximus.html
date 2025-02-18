@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximus Email</title>
+    <style>
+       
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box; /* Eklenen kısım */
+        }
+        .header {
+            background-color: #5c2d91;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            align-items: center; /* Dikey ortalama */
+            justify-content: center;
+        }
+
+        .header img {
+            max-width: 150px;
+        }
+        .body {
+            padding: 20px;
+            margin-bottom: -70px;
+            margin-top: -70px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden; /* Taşmayı önlemek için */
+            box-sizing: border-box; /* İçerik kutusunu ayarla */
+            word-wrap: break-word; /* Uzun kelimelerin taşmasını önler */
+            white-space: pre-line;
+        }
+       
+        .footer {
+            background-color: #f3f4f6;
+            color: #777777;
+            text-align: center;
+            padding: 10px;
+            font-size: 11px;
+            white-space: pre-line;
+        }
+        .footer a {
+            color: #5c2d91;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <img src="https://d36tcwrd79c4pa.cloudfront.net/resized2/articles/2638523/proximus_logo_b2ad94846f1815146a1e35902ef6e3f1.jpg" alt="Proximus Logo">
+        </div>
+        
+        <!-- Body -->
+        <div class="body">
+            {{ full_content }}
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>This email was sent to you as part of your Proximus account. If you have any questions, please visit our <a href="https://www.proximus.be/support">Support Center</a>.</p>
+            <p>&copy; 2025 Proximus. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
